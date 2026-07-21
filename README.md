@@ -358,7 +358,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <p align="center">
   <strong>Powered by MAFA</strong><br/>
-  <a href="https://github.com/MAFA-KHAN/Scrybe">
-    <img src="https://img.shields.io/badge/GitHub-MAFA--KHAN%2FScrybe-0B2545?style=for-the-badge&logo=github" alt="GitHub" />
-  </a>
+
 </p>
