@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="mascot.png" alt="Scrybe Mascot" width="300" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Scrybe-Certificate%20Intelligence-0B2545?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTE0IDJINmEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMlY4eiI+PC9wYXRoPjxwb2x5bGluZSBwb2ludHM9IjE0IDIgMTQgOCAyMCA4Ij48L3BvbHlsaW5lPjxsaW5lIHgxPSIxNiIgeTE9IjEzIiB4Mj0iOCIgeTI9IjEzIj48L2xpbmU+PGxpbmUgeDE9IjE2IiB5MT0iMTciIHgyPSI4IiB5Mj0iMTciPjwvbGluZT48bGluZSB4MT0iMTAiIHkxPSI5IiB4Mj0iOCIgeTI9IjkiPjwvbGluZT48L3N2Zz4=&logoColor=white" alt="Scrybe Badge" />
 </p>
 
@@ -148,9 +152,42 @@ npm run dev
 
 The application will be available at **http://localhost:5173** with the API proxied to port 8100.
 
----
+## 📦 Installation
 
-## 📖 Usage
+```bash
+git clone https://github.com/MAFA-KHAN/Scrybe.git
+cd Scrybe
+```
+
+The backend and frontend setup steps are described in the **Quick Start** section above.
+
+## 📸 Screenshots
+
+![Scrybe Home](screenshot.png)
+
+## 📁 Project Structure
+
+```
+Scrybe/
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   ├── core/
+│   │   ├── models/
+│   │   └── utils/
+│   ├── requirements.txt
+│   └── sample_certificates/
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   └── components/
+│   └── package.json
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
 
 ### Processing Pipeline
 
@@ -307,35 +344,7 @@ For bugs or feature requests, please [open an issue](https://github.com/MAFA-KHA
 
 ## 🙏 Acknowledgements
 
-### Tesseract OCR
-
-Scrybe is built on top of **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)** — the most widely-used open-source OCR engine in the world.
-
-> Tesseract was originally developed at Hewlett-Packard Laboratories Bristol UK and at Hewlett-Packard Co, Greeley Colorado USA between 1985 and 1994, with some more changes made in 1996 to port to Windows, and some C++izing in 1998. In 2005, Tesseract was open-sourced by HP. From 2006 until August 2017 it was developed by Google.
-
-Tesseract 4+ adds a **neural net (LSTM) based OCR engine** focused on line recognition. It has **Unicode (UTF-8) support** and can recognize **100+ languages** out of the box. The current lead developer is **Stefan Weil**, and the maintainer is **Zdenko Podobny**.
-
-Tesseract supports various image formats (PNG, JPEG, TIFF) and output formats (plain text, hOCR, PDF, TSV, ALTO, and PAGE).
-
-- **Repository:** [github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
-- **License:** Apache License 2.0
-- **Documentation:** [tesseract-ocr.github.io](https://tesseract-ocr.github.io/)
-- **Training:** [Tesseract Training Guide](https://tesseract-ocr.github.io/tessdoc/Training-Tesseract.html)
-
-Tesseract uses the **[Leptonica](http://leptonica.org/)** library (BSD 2-clause license) for image processing.
-
-> We gratefully acknowledge the Tesseract OCR project and its contributors for making high-quality optical character recognition freely available to the open-source community. Without Tesseract, Scrybe would not be possible.
-
-### Other Open-Source Projects
-
-Scrybe also relies on and is grateful to the following open-source projects:
-
-- **[OpenCV](https://opencv.org/)** — Computer vision and image processing (Apache 2.0)
-- **[FastAPI](https://fastapi.tiangolo.com/)** — Modern Python web framework (MIT)
-- **[React](https://react.dev/)** — UI component library (MIT)
-- **[Vite](https://vitejs.dev/)** — Next-generation frontend tooling (MIT)
-- **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first CSS framework (MIT)
-- **[Framer Motion](https://www.framer.com/motion/)** — Production-ready animations (MIT)
+Scrybe is built on top of Tesseract OCR — the most widely-used open-source OCR engine in the world.
 
 ---
 
@@ -349,7 +358,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <p align="center">
   <strong>Powered by MAFA</strong><br/>
-  <sub>Built with ☕ and a passion for document intelligence</sub><br/><br/>
   <a href="https://github.com/MAFA-KHAN/Scrybe">
     <img src="https://img.shields.io/badge/GitHub-MAFA--KHAN%2FScrybe-0B2545?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
